@@ -1,0 +1,17 @@
+{
+  "name": "nodejsappbundler",
+  "version": "1.0.0",
+  "description": "Bundle Scripts into .app macOS Applications",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc *.ts && node index.js"
+  },
+  "author": "Gabriel Margarido",
+  "license": "ISC",
+  "dependencies": {
+    "@types/js-yaml": "^4.0.5",
+    "@types/node": "^18.11.19",
+    "js-yaml": "^4.1.0",
+    "typescript": "^4.9.5"
+  }
+}

@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		2BE54EF42A62F531004DF0B8 /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
+		2BE54EF52A62F53E004DF0B8 /* mono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = mono.ttf; sourceTree = "<group>"; };
+		2BE54EF62A62F53E004DF0B8 /* Input-Font.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "Input-Font.zip"; sourceTree = "<group>"; };
+		2BE54EF72A62F53E004DF0B8 /* novo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = novo.png; sourceTree = "<group>"; };
+		2BE54EF82A62F53F004DF0B8 /* executar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = executar.png; sourceTree = "<group>"; };
+		2BE54EF92A62F53F004DF0B8 /* Input-Font */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Input-Font"; sourceTree = "<group>"; };
+		2BE54EFA2A62F53F004DF0B8 /* bitmap */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bitmap; sourceTree = "<group>"; };
+		2BE54EFB2A62F53F004DF0B8 /* portugol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portugol.png; sourceTree = "<group>"; };
+		2BE54EFC2A62F53F004DF0B8 /* salvar1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = salvar1.png; sourceTree = "<group>"; };
+		2BE54EFD2A62F540004DF0B8 /* jogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jogo.png; sourceTree = "<group>"; };
+		2BE54EFE2A62F540004DF0B8 /* novo_jogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = novo_jogo.png; sourceTree = "<group>"; };
+		2BE54EFF2A62F540004DF0B8 /* abrir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abrir.png; sourceTree = "<group>"; };
+		2BE54F002A62F540004DF0B8 /* salvar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = salvar.png; sourceTree = "<group>"; };
+		2BE54F012A62F541004DF0B8 /* __pycache__ */ = {isa = PBXFileReference; lastKnownFileType = folder; path = __pycache__; sourceTree = "<group>"; };
+		2BE54F032A6357CC004DF0B8 /* setup.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = setup.py; sourceTree = "<group>"; };
+		2BE54F042A63592B004DF0B8 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		2BE54F052A6359B3004DF0B8 /* py2app-master */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "py2app-master"; sourceTree = "<group>"; };
+		2BE54F062A635AF9004DF0B8 /* icns */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icns; sourceTree = "<group>"; };
+		2BE54F072A635C7E004DF0B8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2BE54F082A636025004DF0B8 /* pyinstaller-master */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "pyinstaller-master"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2BE54EE82A62F31A004DF0B8 = {
+			isa = PBXGroup;
+			children = (
+				2BE54F082A636025004DF0B8 /* pyinstaller-master */,
+				2BE54F072A635C7E004DF0B8 /* README.md */,
+				2BE54F062A635AF9004DF0B8 /* icns */,
+				2BE54F052A6359B3004DF0B8 /* py2app-master */,
+				2BE54F042A63592B004DF0B8 /* Makefile */,
+				2BE54F032A6357CC004DF0B8 /* setup.py */,
+				2BE54F012A62F541004DF0B8 /* __pycache__ */,
+				2BE54EFF2A62F540004DF0B8 /* abrir.png */,
+				2BE54EFA2A62F53F004DF0B8 /* bitmap */,
+				2BE54EF82A62F53F004DF0B8 /* executar.png */,
+				2BE54EF92A62F53F004DF0B8 /* Input-Font */,
+				2BE54EF62A62F53E004DF0B8 /* Input-Font.zip */,
+				2BE54EFD2A62F540004DF0B8 /* jogo.png */,
+				2BE54EF52A62F53E004DF0B8 /* mono.ttf */,
+				2BE54EFE2A62F540004DF0B8 /* novo_jogo.png */,
+				2BE54EF72A62F53E004DF0B8 /* novo.png */,
+				2BE54EFB2A62F53F004DF0B8 /* portugol.png */,
+				2BE54F002A62F540004DF0B8 /* salvar.png */,
+				2BE54EFC2A62F53F004DF0B8 /* salvar1.png */,
+				2BE54EF42A62F531004DF0B8 /* main.py */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		2BE54EED2A62F31A004DF0B8 /* Portugol CStudio IDE */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(SRCROOT)/main.py";
+			buildConfigurationList = 2BE54EF02A62F31A004DF0B8 /* Build configuration list for PBXLegacyTarget "Portugol CStudio IDE" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/python3;
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = "Portugol CStudio IDE";
+			passBuildSettingsInEnvironment = 1;
+			productName = "Portugol CStudio IDE";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		2BE54EE92A62F31A004DF0B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2BE54EED2A62F31A004DF0B8 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2BE54EEC2A62F31A004DF0B8 /* Build configuration list for PBXProject "Portugol CStudio IDE" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BE54EE82A62F31A004DF0B8;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BE54EED2A62F31A004DF0B8 /* Portugol CStudio IDE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		2BE54EEE2A62F31A004DF0B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		2BE54EEF2A62F31A004DF0B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+			};
+			name = Release;
+		};
+		2BE54EF12A62F31A004DF0B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2BE54EF22A62F31A004DF0B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BE54EEC2A62F31A004DF0B8 /* Build configuration list for PBXProject "Portugol CStudio IDE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE54EEE2A62F31A004DF0B8 /* Debug */,
+				2BE54EEF2A62F31A004DF0B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE54EF02A62F31A004DF0B8 /* Build configuration list for PBXLegacyTarget "Portugol CStudio IDE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE54EF12A62F31A004DF0B8 /* Debug */,
+				2BE54EF22A62F31A004DF0B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BE54EE92A62F31A004DF0B8 /* Project object */;
+}

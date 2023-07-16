@@ -1,0 +1,86 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Linguagem de Programacao Portugol",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#numbers"
+		},
+        {
+            "include": "#storage"
+        }
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.portugol",
+				"match": "\\b(se|senaose|senao|enquanto|para|retorne|parar|funcao|importar|incluir|pacote|programa|fimprograma|vezes)\\b"
+			}]
+		},
+		"comments": {
+            "patterns": [{
+                "name": "comment.block.documentation.portugol",
+                "begin": "//",
+                "beginCaptures": {
+                    "0": {
+                        "name": "punctuation.definition.comment.begin.portugol"
+                    }
+                },
+                "end": "\n",
+                "endCaptures": {
+                    "0": {
+                        "name": "punctuation.definition.comment.end.portugol"
+                    }
+                },
+                "patterns": [{
+                    "include": "#comments"
+            	}]
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.portugol",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.portugol",
+					"match": "\\\\."
+				}
+			]
+		},
+		"numbers": {
+            "patterns": [{
+                "name": "constant.numeric.exponential.portugol",
+                "match": "([0-9]+(_?))+(\\.)([0-9]+[eE][-+]?[0-9]+)"
+            }, {
+                "name": "constant.numeric.float.portugol",
+                "match": "([0-9]+(_?))+(\\.)([0-9]+)"
+            }, {
+                "name": "constant.numeric.binary.portugol",
+                "match": "(?:0b)(?:(?:[0-1]+)(?:_?))+"
+            }, {
+                "name": "constant.numeric.octal.portugol",
+                "match": "(?:0o)(?:(?:[0-7]+)(?:_?))+"
+            }, {
+                "name": "constant.numeric.hex.portugol",
+                "match": "(?:0x)(?:(?:[0-9a-fA-F]+)(?:_?))+"
+            }, {
+                "name": "constant.numeric.integer.portugol",
+                "match": "(?:(?:[0-9]+)(?:[_]?))+"
+            }]
+        },
+        "storage": {
+            "name": "storage.modifier.portugol",
+            "match": "\\b(var|inteiro|flutuante|cadeia|logico|vazio|verdadeiro|falso|igual|diferente|nao|e|ou|nulo|ate)\\b"
+        }
+	},
+	"scopeName": "source.por"
+}

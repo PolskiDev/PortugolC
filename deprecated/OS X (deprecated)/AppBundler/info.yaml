@@ -1,0 +1,8 @@
+MACOSX:
+  input_dir: "xcodeproject/src"
+  input_icns: "xcodeproject/icon/portugol.icns"
+  output_dir: "dist"
+  app_name: "PortugolCStudio.app"
+
+PRIVATE:
+  app_file: "src/App.app"

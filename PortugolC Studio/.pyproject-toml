@@ -1,0 +1,7 @@
+[tool.py2app]
+name = "portugolcstudio"
+version = "1.5"
+description = "Portugol IDE for PortugolC"
+license = "BSD-2-Clause"
+authors = ["Gabriel Margarido"]
+maintainers = ["Gabriel Margarido <gabrielmargarido.dev@gmail.com>"]

@@ -1,0 +1,17 @@
+doc/_build
+workenv
+build
+dist
+py2app.egg-info
+.DS_Store
+__pycache__
+.tox
+.coverage
+htmlcov
+
+syntax: glob
+*.dSYM
+*.pyc
+*.pyo
+*.so
+.coverage*

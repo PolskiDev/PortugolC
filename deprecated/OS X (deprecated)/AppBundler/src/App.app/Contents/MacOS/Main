@@ -1,0 +1,11 @@
+#!/usr/local/bin/python3
+
+#  Main.sh
+#  
+#
+#  Created by Gabriel Margarido on 04/02/23.
+#  
+import tkinter as tk
+import tkinter.simpledialog
+tk.Tk().withdraw()
+tkinter.simpledialog.askstring("Password", "Enter password:", show='*')

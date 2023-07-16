@@ -1,0 +1,2 @@
+#!/bin/bash
+node gradlew.js $1 $2

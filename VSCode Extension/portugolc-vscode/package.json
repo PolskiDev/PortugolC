@@ -1,0 +1,26 @@
+{
+    "name": "portugol",
+    "displayName": "Portugol",
+    "description": "Linguagem de Programacao Portugol",
+    "version": "1.0.0",
+    "icon": "./portugol.png",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "portugol",
+            "aliases": ["Portugol", "portugol"],
+            "extensions": [".por"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "portugol",
+            "scopeName": "source.por",
+            "path": "./syntaxes/portugol.tmLanguage.json"
+        }]
+    }
+}
